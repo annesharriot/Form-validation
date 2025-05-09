@@ -1,0 +1,60 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:antiquewhite;
+}
+h2{
+    text-align: center;
+    color:darkmagenta;
+    font-weight: bold;
+    
+
+
+}
+form{
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    background-color: lavenderblush;
+    border-radius: 20px;
+    box-shadow: 0 0 10px orange;
+    height: 550px;
+    font-weight: bold;
+    color: brown;
+
+}
+input[type="text"],input[type="password"],select{
+ width: 100%;
+ padding: 10px;
+ margin: 5px;
+ border: 1px solid#ccc;
+ border-radius: 5px;
+ box-sizing: border-box;
+ font-size: 16px;
+ background-color:#fff;
+}
+ .box{
+    
+    accent-color: blue;
+ }
+input[type="submit"]
+
+{
+    accent-color: blue;
+    background-color:red;
+    color: #fff;
+    border:none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    width: 100%;
+
+}
+ 
+.error-message{
+    color: red;
+    font-size: 14px;
+}
+ 
+
